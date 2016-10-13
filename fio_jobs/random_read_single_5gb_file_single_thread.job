@@ -1,0 +1,8 @@
+[random-readers]
+ioengine=libaio
+iodepth=4
+rw=randread
+bs=32k
+direct=0
+size=5g
+numjobs=1

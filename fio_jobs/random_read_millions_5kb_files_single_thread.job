@@ -1,0 +1,10 @@
+[random-writers]
+ioengine=libaio
+iodepth=4
+rw=randread
+bs=32k
+direct=0
+size=5g
+filesize=5k
+nrfiles=1048576
+numjobs=1
